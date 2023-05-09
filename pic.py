@@ -14,7 +14,7 @@ def img_gen(query):
     return response['data'][0]['url']
 
 # main program
-query= input("Entrez les mots clés souhaités séparés par une virgule pour générer l'image:  ")
+query= input("Enter the desired keywords separated by a comma to generate the image:  ")
 url = img_gen(query)
 
 exit_conditions = ("exit")
@@ -22,7 +22,7 @@ get_conditions = ("get")
 print_conditions = ("print")
 
 while True:
-    query = input("Tapez 'get' suivi parla touche 'Entrée' pour télécharger l'image générée:  ")
+    query = input("Type 'get' followed by 'Enter' to download the generated image, 'exit' followed by 'Enter' to exit script, 'print' followed by 'Enter' to see url of image:  ")
     if query in print_conditions:
         print(url)
     if query in exit_conditions:
@@ -31,6 +31,6 @@ while True:
         response = requests.get(url)
         with open('afbeelding.png', 'wb') as f:
             f.write(response.content)
-        print("Afbeelding gedownload.")
+        print("Image downloaded !!!")
     else:
         print(url)
