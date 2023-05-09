@@ -2,4 +2,4 @@
 
 raspberry pi 4 stuff
 
-pi.py : python3 pic.py
+pic.py : python3 pic.py
