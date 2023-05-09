@@ -2,4 +2,4 @@
 
 raspberry pi 4 stuff
 
-Use pi.py ; python3 picgpt.py
+pi.py : python3 pic.py
