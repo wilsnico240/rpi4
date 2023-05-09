@@ -1,7 +1,7 @@
 import sys
 import openai
 
-openai.api_key=""
+openai.api_key="**********"
 
 import requests
 
