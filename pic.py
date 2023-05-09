@@ -31,6 +31,6 @@ while True:
         response = requests.get(url)
         with open('picgpt.png', 'wb') as f:
             f.write(response.content)
-        print("Image picgpt.png downloaded !!!")
+        print("Image 'picgpt.png' downloaded !!!")
     else:
         print(url)
