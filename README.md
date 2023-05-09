@@ -2,7 +2,7 @@
 
 -raspberry pi 4 stuff-
 
-Change API-KEY in scripts:
+Insert API-KEY in scripts !!!
 
 chatgpt.py : python3 chatgpt.py
 
