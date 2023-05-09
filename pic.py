@@ -29,8 +29,8 @@ while True:
         break
     if query in get_conditions:
         response = requests.get(url)
-        with open('afbeelding.png', 'wb') as f:
+        with open('picgpt.png', 'wb') as f:
             f.write(response.content)
-        print("Image downloaded !!!")
+        print("Image picgpt.png downloaded !!!")
     else:
         print(url)
