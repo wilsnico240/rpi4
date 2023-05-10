@@ -1,9 +1,9 @@
 import sys
 import openai
-
-openai.api_key="**********"
-
+import webbrowser
 import requests
+
+openai.api_key="********************"
 
 def img_gen(query):
     response = openai.Image.create(
@@ -20,9 +20,10 @@ url = img_gen(query)
 exit_conditions = ("exit")
 get_conditions = ("get")
 print_conditions = ("print")
+open_conditions = ("open")
 
 while True:
-    query = input("Type 'get' followed by 'Enter' to download the generated image, 'exit' followed by 'Enter' to exit script, 'print' followed by 'Enter' to see url of image:  ")
+    query = input("Type 'open' followed by 'Enter' to vieuw image in browser, 'get' followed by 'Enter' to download the generated image, 'exit' followed by 'Enter' to exit script, 'print' followed by 'Enter' to see url of image:  ")
     if query in print_conditions:
         print(url)
     if query in exit_conditions:
@@ -32,5 +33,7 @@ while True:
         with open('picgpt.png', 'wb') as f:
             f.write(response.content)
         print("Image 'picgpt.png' downloaded !!!")
+    if query in open_conditions:
+         webbrowser.open(url)
     else:
-        print(url)
+        print("    ")
