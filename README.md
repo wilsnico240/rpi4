@@ -12,7 +12,7 @@ python3 pic.py
 
 - Startup pir script :
 
-Needs mp3 stream url in script !!!
+Needs vlc installed and mp3 stream url in script !!!
 
 sudo python pir.py
 
