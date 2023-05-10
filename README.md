@@ -8,7 +8,7 @@ python3 *.py
 
 Startup pir script :
 
-python pir.py
+sudo python pir.py
 
 Extra info pir.py :
 
