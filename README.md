@@ -12,3 +12,4 @@ python pir.py
 
 Extra info pir.py :
 
+https://hackaday.io/project/167648-auto-10-minute-toilet-internet-radio-beta
