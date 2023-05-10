@@ -4,6 +4,8 @@ Raspberry pi 4 stuff !!!!!
 
 Starting GPT scripts :
 
+Needs openai installed and api-key in sript !!!
+
 python3 *.py 
 
 Startup pir script :
