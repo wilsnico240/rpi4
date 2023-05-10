@@ -4,7 +4,7 @@ Raspberry pi 4 stuff !!!!!
 
 Starting GPT scripts :
 
-python3 + *.py 
+python3 *.py 
 
 Startup pir script :
 
