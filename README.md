@@ -6,7 +6,9 @@ Raspberry pi 4 stuff !!!!!
 
 Needs openai installed and api-key in sript !!!
 
-python3 *.py 
+python3 chatgpt.py
+
+python3 pic.py 
 
 - Startup pir script :
 
