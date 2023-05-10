@@ -1,3 +1,3 @@
 # rpi4
 
--raspberry pi 4 stuff !!!
+Raspberry pi 4 stuff !!!
