@@ -2,13 +2,15 @@
 
 Raspberry pi 4 stuff !!!!!
 
-Starting GPT scripts :
+- Starting GPT scripts :
 
 Needs openai installed and api-key in sript !!!
 
 python3 *.py 
 
-Startup pir script :
+- Startup pir script :
+
+Put mp3 stream url in script !!!
 
 sudo python pir.py
 
