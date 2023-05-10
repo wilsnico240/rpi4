@@ -32,7 +32,7 @@ while True:
         response = requests.get(url)
         with open('picgpt.png', 'wb') as f:
             f.write(response.content)
-        print("Image 'picgpt.png' downloaded !!!")
+        print("The image 'picgpt' is downloaded in png format on your computer !!!")
     if query in open_conditions:
          webbrowser.open(url)
     else:
