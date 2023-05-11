@@ -31,16 +31,16 @@ while True:
          query = input("Type 'open' followed by ENTER to view the image in browser, 'get' followed by ENTER to download the generated image, 'print' followed by ENTER to show the URL, 'new' followed by ENTER to generate a new image or 'exit' followed by ENTER to quit: ")
          if query in exit_conditions:
              sys.exit()
-         elif query in get_conditions:
+         if query in get_conditions:
              response = requests.get(url)
              with open('picgpt.png', 'wb') as f:
                  f.write(response.content)
              print("The image 'picgpt' is downloaded in png format on your computer !!!")
-         elif query in print_conditions:
+         if query in print_conditions:
              print(url)
-         elif query in open_conditions:
+         if query in open_conditions:
              webbrowser.open(url)
-         elif query in new_conditions:
+         if query in new_conditions:
              break
          else:
              print("    ")
