@@ -3,7 +3,7 @@ import openai
 import webbrowser
 import requests
 
-openai.api_key="********************"
+openai.api_key="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"
 
 def img_gen(query):
     response = openai.Image.create(
@@ -14,26 +14,33 @@ def img_gen(query):
     return response['data'][0]['url']
 
 # main program
-query= input("Enter the desired keywords separated by a comma to generate the image:  ")
-url = img_gen(query)
-
 exit_conditions = ("exit")
 get_conditions = ("get")
 print_conditions = ("print")
 open_conditions = ("open")
+new_conditions = ("new")
 
 while True:
-    query = input("Type 'open' followed by 'Enter' to vieuw image in browser, 'get' followed by 'Enter' to download the generated image, 'exit' followed by 'Enter' to exit script, 'print' followed by 'Enter' to see url of image:  ")
-    if query in print_conditions:
-        print(url)
-    if query in exit_conditions:
-        break
-    if query in get_conditions:
-        response = requests.get(url)
-        with open('picgpt.png', 'wb') as f:
-            f.write(response.content)
-        print("The image 'picgpt' is downloaded in png format on your computer !!!")
-    if query in open_conditions:
-         webbrowser.open(url)
-    else:
-        print("    ")
+     query= input("Enter the desired keywords separated by a comma to generate the image, or type 'exit' followed by ENTER to quit: ")
+     if query in exit_conditions:
+         break
+
+     url = img_gen(query)
+
+     while True:
+         query = input("Type 'open' followed by ENTER to view the image in browser, 'get' followed by ENTER to download the generated image, 'print' followed by ENTER to show the URL, 'new' followed by ENTER to generate a new image or 'exit' followed by ENTER to quit: ")
+         if query in exit_conditions:
+             sys.exit()
+         elif query in get_conditions:
+             response = requests.get(url)
+             with open('picgpt.png', 'wb') as f:
+                 f.write(response.content)
+             print("The image 'picgpt' is downloaded in png format on your computer !!!")
+         elif query in print_conditions:
+             print(url)
+         elif query in open_conditions:
+             webbrowser.open(url)
+         elif query in new_conditions:
+             break
+         else:
+             print("    ")
