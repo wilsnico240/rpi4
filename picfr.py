@@ -3,7 +3,7 @@ import openai
 import webbrowser
 import requests
 
-openai.api_key="**************************"
+openai.api_key="    "
 
 def img_gen(query):
     response = openai.Image.create(
