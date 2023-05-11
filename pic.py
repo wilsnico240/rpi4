@@ -23,7 +23,7 @@ new_conditions = ("new")
 while True:
      query= input("Enter the desired keywords separated by a comma to generate the image, or type 'exit' followed by ENTER to quit: ")
      if query in exit_conditions:
-         break
+         sys.exit()
 
      url = img_gen(query)
 
