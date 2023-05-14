@@ -10,6 +10,8 @@ python3 chatgpt.py
 
 python3 pic.py 
 
+python3 picfr.py
+
 ./gptimage.sh 
 
 - Startup pir script :
