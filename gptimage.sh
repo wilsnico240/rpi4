@@ -30,7 +30,7 @@ END
         elif [ "$option" = "get" ]
         then
             random_number=$(shuf -i 0-1000 -n 1)
-            filename="picgpt$random_number.png"
+            filename="gptimage$random_number.png"
             curl -o "$filename" "$url"
             echo "Image downloaded as $filename"
         elif [ "$option" = "print" ]
