@@ -6,7 +6,7 @@ while [ "$query" != "exit" ]
 do
      url=$(python3 - <<END
 import openai
-openai.api_key="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"
+openai.api_key="    "
 def img_gen(query):
      response = openai.Image.create(
          prompt=query,
@@ -36,7 +36,7 @@ END
              xdg-open "$url"
          fi
 
-         option=$(zenity --list --text="Choose an option:" --column=Options "View in browser" "Download" "Show URL" "New" "Exit")
+         option=$(zenity --list --text="Choose an option:" --column=Options "View in browser" "Download" "New" "Exit")
      done
 
      query=$(zenity --entry --text="Enter the desired keywords separated by a comma to generate the image, or type 'exit' to quit:")
