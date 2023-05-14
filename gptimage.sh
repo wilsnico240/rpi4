@@ -44,13 +44,11 @@ END
         fi
 
     echo " "
-    echo " "
 
         echo "Type 'open' followed by ENTER to view the image in browser, 'get' followed by ENTER to download the generated image, 'print' followed by ENTER to show the URL, 'new' followed by ENTER to generate a new image, or 'exit' followed by ENTER to quit:"
         read -r option
     done
 
-    echo " "
     echo " "
 
     echo "Enter the desired keywords separated by a comma to generate the image, or type 'exit' followed by ENTER to quit:"
