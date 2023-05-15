@@ -12,7 +12,7 @@ python3 pic.py
 
 python3 picfr.py
 
-./gptimage.sh 
+chmod +x gptimage.sh 
 
 - Startup pir script :
 
