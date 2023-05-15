@@ -14,6 +14,8 @@ python3 picfr.py
 
 chmod +x gptimage.sh 
 
+chmod +x gptimagefr.sh 
+
 - Startup pir script :
 
 Needs vlc, gpiozero lib installed and mp3 stream url in script !!!
