@@ -6,7 +6,7 @@ while [ "$query" != "Quitter" ]
 do
      url=$(python3 - <<END
 import openai
-openai.api_key="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"
+openai.api_key="  "
 def img_gen(query):
      response = openai.Image.create(
          prompt=query,
