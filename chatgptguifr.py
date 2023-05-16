@@ -58,7 +58,7 @@ send_button = tk.Button(root, font="Arial", text="Send", width="10", height=5,
                         bd=0, bg="#56AB2F", activebackground="#9ECF99",
                         command=send_message)
 
-# Plaatsing van widgets
+# Widgets
 scrollbar.place(x=726,y=6, height=386)
 chat_box.place(x=6,y=6, height=386, width=720)
 entry_box.place(x=128, y=401, height=90, width=615)
