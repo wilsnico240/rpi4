@@ -22,6 +22,8 @@ python3 chatgptguifr.py
 
 - SH scripts :
 
+Needs api-key in sript !!!
+
 chmod +x gptimage.sh 
 
 chmod +x gptimagefr.sh 
