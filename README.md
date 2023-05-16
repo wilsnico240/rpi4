@@ -12,6 +12,16 @@ python3 pic.py
 
 python3 picfr.py
 
+- Starting GPT GUI scripts :
+
+Needs python3-tk, openai, tkinter installed and api-key in sript !!!
+
+python3 chatgptgui.py
+
+python3 chatgptguifr.py
+
+- SH scripts :
+
 chmod +x gptimage.sh 
 
 chmod +x gptimagefr.sh 
