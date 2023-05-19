@@ -39,24 +39,19 @@ root = tk.Tk()
 root.title("ChatGPT")
 root.geometry("750x500")
 
-# Create Chat window
 chat_box = tk.Text(root, bd=0, bg="white", height="8", width="50", font="Arial",)
 
 chat_box.config(state=tk.DISABLED)
 
-# Bind scrollbar to Chat window
 scrollbar = tk.Scrollbar(root, command=chat_box.yview, cursor="heart")
 chat_box['yscrollcommand'] = scrollbar.set
 
-# Create Button to send message
 send_button = tk.Button(root, font="Arial", text="Envoyer", width="10", height=5,
                         bd=0, bg="blue", activebackground="#ffffff",
                         command=send_message)
 
-# Create the box to enter message
 entry_box = tk.Text(root, bd=0, bg="white", width="28", height="5", font="Arial")
 
-# Place all components on the screen
 scrollbar.place(x=726,y=6, height=386)
 chat_box.place(x=6,y=6, height=386, width=720)
 entry_box.place(x=128, y=401, height=90, width=615)
