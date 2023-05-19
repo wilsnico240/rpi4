@@ -9,7 +9,7 @@ def get_response(prompt):
     response = openai.Completion.create(
       engine="text-davinci-003",
       prompt=prompt,
-      max_tokens=250,
+      max_tokens=500,
       n=1,
       stop=None,
       temperature=0.4,
@@ -32,8 +32,9 @@ def send_message():
         chat_box.insert(tk.END, "GPT: " + response + '\n\n')
 
         chat_box.config(state=tk.DISABLED)
-        subprocess.call(['espeak-ng', '-v', 'fr+f2', '-s', '127', response])
         chat_box.yview(tk.END)
+        espeak_output = subprocess.check_output(['espeak-ng', '-v', 'fr+f2', '-m', '-s', '127', '-z', '--stdout', response])
+        subprocess.Popen(['paplay'], stdin=subprocess.PIPE).communicate(input=espeak_output)
 
 def enter_pressed(event):
     send_message()
