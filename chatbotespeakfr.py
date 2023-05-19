@@ -30,7 +30,7 @@ def send_message():
         chat_box.config(foreground="#442265", font=("Verdana", 12 ))
 
         response = get_response(message)
-        chat_box.insert(tk.END, "Assistant: " + response + '\n\n')
+        chat_box.insert(tk.END, "Assistante: " + response + '\n\n')
         chat_box.config(state=tk.DISABLED)
 
         say_response(response)
