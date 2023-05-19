@@ -32,7 +32,7 @@ def send_message():
         chat_box.insert(tk.END, "GPT: " + response + '\n\n')
 
         chat_box.config(state=tk.DISABLED)
-        subprocess.call(['espeak-ng', '-v', 'fr+f2', '-s', '135', response])
+        subprocess.call(['espeak-ng', '-v', 'fr+f2', '-s', '127', response])
         chat_box.yview(tk.END)
 
 def enter_pressed(event):
