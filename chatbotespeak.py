@@ -18,38 +18,52 @@ def get_response(prompt):
 
 def say_response(message):
     subprocess.Popen(['espeak-ng', '-v', voice.get(), '-m', '-s', speed.get(), '-z', message], stdout=subprocess.PIPE)
+def toggle_espeak():
+    global espeak_on
+    espeak_on = not espeak_on
+    if espeak_on:
+        espeak_toggle_button.config(text='espeak Off')
+    else:
+        espeak_toggle_button.config(text='espeak On')
 
 def send_message():
     message = entry_box.get("1.0",'end-1c')
     response = get_response(message)
     chat_history.config(state=tk.NORMAL)
-    chat_history.insert(tk.END, "You: " + message + "\n\n")
+    chat_history.insert(tk.END, "YOU: " + message + "\n\n")
     chat_history.config(foreground="#442265", font=("Verdana", 12 ))
     chat_history.insert(tk.END, "Assistant: " + response + "\n\n")
     chat_history.config(state=tk.DISABLED)
     chat_history.yview(tk.END)
-    say_response(response)
+    if espeak_on:
+        say_response(response)
     entry_box.delete('1.0', tk.END)
 
 app = tk.Tk()
 app.title("ChatGPT")
-app.geometry("750x500")
+app.geometry("900x500")
 
-voice_label = tk.Label(app, text="Select the voice:")
+espeak_on = False
+voice = tk.StringVar()
+speed = tk.StringVar()
+
+espeak_toggle_button = tk.Button(app, text='espeak On', command=toggle_espeak)
+espeak_toggle_button.pack()
+voice_label = tk.Label(app, text="Select the voice")
 voice_label.pack()
 
-voice_options = ["none", "fr+f2", "fr+m7", "en+f2", "en+m7", "nl+f4", "nl+m7", "de+f2", "de+m7"]
+voice_options = ["fr+f2", "fr+m7", "en+f2", "en+m7", "nl+f2", "nl+m7", "de+f2", "de+m7"]
 voice = tk.StringVar(app)
 voice.set(voice_options[0])
 
 voice_dropdown = tk.OptionMenu(app, voice, *voice_options)
 voice_dropdown.pack()
 
-speed_label = tk.Label(app, text="Select speed:")
+speed_label = tk.Label(app, text="Select speed")
 speed_label.pack()
 
 speed = tk.StringVar(app)
-speed.set("127")
+speed.set("150")
 
 speed_scale = tk.Scale(app, variable=speed, from_=80, to=400, orient=tk.HORIZONTAL)
 speed_scale.pack()
@@ -71,13 +85,14 @@ send_button = tk.Button(app, font="Arial", text="Send", width="10", height=5,
                         command=send_message)
 send_button.pack()
 
-voice_label.place(x=166,y=10)
-voice_dropdown.place(x=277,y=5)
-speed_label.place(x=375,y=10)
-speed_scale.place(x=465,y=2)
-chat_history.place(x=6,y=50, height=352, width=724)
-scrollbar.place(x=730,y=50, height=353)
-entry_box.place(x=128, y=401, height=90, width=615)
+espeak_toggle_button.place(x=7,y=7)
+voice_label.place(x=110,y=12)
+voice_dropdown.place(x=220,y=6)
+speed_label.place(x=307,y=12)
+speed_scale.place(x=398,y=1)
+chat_history.place(x=6,y=50, height=352, width=874)
+scrollbar.place(x=880,y=50, height=353)
+entry_box.place(x=128, y=401, height=90, width=765)
 send_button.place(x=6, y=401, height=90)
 
 app.mainloop()
