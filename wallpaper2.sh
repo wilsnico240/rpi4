@@ -2,7 +2,7 @@
 
 interval=300 # 5 * 60
 
-url="https://api.sat24.com/animated/EU/visual/3/Central%20European%20Standard%20Time/5969435"
+url="https://api.sat24.com/animated/EU/visual/3/Romance%20Standard%20Time/9299372"
 
 while true
 do
