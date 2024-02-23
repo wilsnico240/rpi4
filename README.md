@@ -1,3 +1,3 @@
-# rpi
+# RPI
 
-Raspberry pi stuff !!!!!
+Raspberry Pi stuff !!!!!
