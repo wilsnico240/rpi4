@@ -69,7 +69,6 @@ window.geometry("300x100")
 status_label = tk.Label(window, text="Direction: Arrêté\nVitesse: 0.00", anchor='w', font=("Arial", 16))
 status_label.pack()
 
-# Same font change for the Button
 stop_button = tk.Button(window, text="Arrêter le script", command=stop_program, font=("Arial", 16))
 stop_button.pack()
 
