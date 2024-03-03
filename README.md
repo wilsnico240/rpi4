@@ -1,3 +1,4 @@
 # RPI
 
-Raspberry Pi stuff !!!!!
+My Raspberry Pi projects .
+Hope you like some !!!
