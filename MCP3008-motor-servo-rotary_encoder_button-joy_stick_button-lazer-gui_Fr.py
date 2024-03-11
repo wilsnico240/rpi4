@@ -9,7 +9,7 @@ DT = 27
 SW = 25
 LAZER = 5
 button = 22
-servo = AngularServo(13, min_angle=-360, max_angle=360, initial_angle=180)
+servo = AngularServo(13, min_angle=-360, max_angle=360)
 motor = Motor(forward=16, backward=12)
 analog_input = MCP3008(channel=7)
 analog_input2 = MCP3008(channel=6)
@@ -26,7 +26,7 @@ counter = 0
 button_press_count = 0
 
 def update_servo_motor():
-    sensor_value2 = analog_input2.value * 2 - 1
+    sensor_value2 = analog_input2.value * 2.00 - 1.00
     angle = sensor_value2 * 360
     servo.angle = angle
     window.after(1, update_servo_motor)
@@ -39,7 +39,7 @@ def update_motor_status():
     else:
         direction = "Arrêté"
 
-    motor_speed = max(0, min(1, map_range(abs(counter), 0, 40, 0, 1)))
+    motor_speed = max(0, min(1, map_range(abs(counter), 0, 50, 0, 1)))
     status_label.config(text=f"Direction: {direction}\nVitesse: {motor_speed:.2f}")
 
 def map_range(x, in_min, in_max, out_min, out_max):
