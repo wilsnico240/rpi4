@@ -19,7 +19,10 @@ def ontvang_data():
     while True:
         data = ser.readline().decode().strip()
         data = data.replace(" ", ",")
-        textbox.insert(tk.END, data + '\n')
+        modified_data = []
+        for item in data.split(","):
+            modified_data.append("99" if int(item) > 99 else item)
+        textbox.insert(tk.END, ",".join(modified_data) + '\n')
 
 def reset_textbox():
     textbox.delete("1.0", tk.END)
@@ -42,7 +45,7 @@ def calculate():
     for line in lines:
         line_data = line.split(",")
         new_line_data = []
-        for i, datum in enumerate(line_data):
+        for datum in line_data:
             try:
                 new_data = 100 - float(datum)
                 new_line_data.append("{:.0f}".format(new_data))
