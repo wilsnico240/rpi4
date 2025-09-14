@@ -631,7 +631,6 @@ class IngredientApp:
             row += 1
 
     def create_recipe_section(self):
-        # Frame for recipe label and choose button
         recipe_frame = ttk.Frame(self.button_frame)
         recipe_frame.pack(pady=5)
 
@@ -641,7 +640,6 @@ class IngredientApp:
         self.choose_btn = ttk.Button(recipe_frame, text="", command=self.open_recipe_window)
         self.choose_btn.pack(side="left", padx=5)
 
-        # New frame for calculate and reset buttons
         action_frame = ttk.Frame(self.button_frame)
         action_frame.pack(pady=5)
 
@@ -676,7 +674,6 @@ class IngredientApp:
         listbox.bind('<<ListboxSelect>>', on_select)
 
     def load_recipe(self, selected_recipe):
-        # Map the selected recipe to the NL key (since RECIPES uses NL keys)
         if self.language == "FR":
             recipe_key = RECIPE_MAP_FR_TO_NL.get(selected_recipe, selected_recipe)
         elif self.language == "EN":
@@ -684,13 +681,10 @@ class IngredientApp:
         else:
             recipe_key = selected_recipe
 
-        # Reset all fields to 0
         self.reset_values()
 
-        # Get the recipe data
         recipe_data = RECIPES.get(recipe_key, {})
 
-        # Map NL ingredients to current language
         ingredients = self.get_ingredients()
         if self.language == "FR":
             ingredient_mapping = INGREDIENTMAP_NL_TO_FR
@@ -699,7 +693,6 @@ class IngredientApp:
         else:
             ingredient_mapping = {i: i for i in INGREDIENTS_NL}
 
-        # Populate fields
         for nl_ingredient, value in recipe_data.items():
             ingredient = ingredient_mapping.get(nl_ingredient, nl_ingredient)
             if ingredient in self.entries:
@@ -856,4 +849,3 @@ if __name__ == "__main__":
     root = tk.Tk()
     app = IngredientApp(root)
     root.mainloop()
-
