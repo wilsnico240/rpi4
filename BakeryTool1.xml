@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ingredients>
+    <ingredient name="Bloem (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Farine (g)</translation>
+            <translation lang="EN">Flour (g)</translation>
+            <translation lang="DE">Mehl (g)</translation>
+            <translation lang="ES">Harina (g)</translation>
+            <translation lang="IT">Farina (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Zaad (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Graine (g)</translation>
+            <translation lang="EN">Seed (g)</translation>
+            <translation lang="DE">Samen (g)</translation>
+            <translation lang="ES">Semillas (g)</translation>
+            <translation lang="IT">Semi (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Gist (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Levure (g)</translation>
+            <translation lang="EN">Yeast (g)</translation>
+            <translation lang="DE">Hefe (g)</translation>
+            <translation lang="ES">Levadura (g)</translation>
+            <translation lang="IT">Lievito (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Zuurdesem (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Levain (g)</translation>
+            <translation lang="EN">Sourdough (g)</translation>
+            <translation lang="DE">Sauerteig (g)</translation>
+            <translation lang="ES">Masa madre (g)</translation>
+            <translation lang="IT">Lievito madre (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Melk zuurdesem (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Levain de lait (g)</translation>
+            <translation lang="EN">Milk sourdough (g)</translation>
+            <translation lang="DE">Milchsauerteig (g)</translation>
+            <translation lang="ES">Masa madre de leche (g)</translation>
+            <translation lang="IT">Lievito madre di latte (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Water (ml)" lang="NL">
+        <translations>
+            <translation lang="FR">Eau (ml)</translation>
+            <translation lang="EN">Water (ml)</translation>
+            <translation lang="DE">Wasser (ml)</translation>
+            <translation lang="ES">Agua (ml)</translation>
+            <translation lang="IT">Acqua (ml)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Zout (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Sel (g)</translation>
+            <translation lang="EN">Salt (g)</translation>
+            <translation lang="DE">Salz (g)</translation>
+            <translation lang="ES">Sal (g)</translation>
+            <translation lang="IT">Sale (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Ei" lang="NL">
+        <translations>
+            <translation lang="FR">Œuf</translation>
+            <translation lang="EN">Egg</translation>
+            <translation lang="DE">Ei</translation>
+            <translation lang="ES">Huevo</translation>
+            <translation lang="IT">Uovo</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Melk (ml)" lang="NL">
+        <translations>
+            <translation lang="FR">Lait (ml)</translation>
+            <translation lang="EN">Milk (ml)</translation>
+            <translation lang="DE">Milch (ml)</translation>
+            <translation lang="ES">Leche (ml)</translation>
+            <translation lang="IT">Latte (ml)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Melkpoeder (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Lait en poudre (g)</translation>
+            <translation lang="EN">Milk powder (g)</translation>
+            <translation lang="DE">Milchpulver (g)</translation>
+            <translation lang="ES">Leche en polvo (g)</translation>
+            <translation lang="IT">Latte in polvere (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Room (ml)" lang="NL">
+        <translations>
+            <translation lang="FR">Crème (ml)</translation>
+            <translation lang="EN">Cream (ml)</translation>
+            <translation lang="DE">Creme (ml)</translation>
+            <translation lang="ES">Crema (ml)</translation>
+            <translation lang="IT">Crema (ml)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Boter (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Beurre (g)</translation>
+            <translation lang="EN">Butter (g)</translation>
+            <translation lang="DE">Butter (g)</translation>
+            <translation lang="ES">Mantequilla (g)</translation>
+            <translation lang="IT">Burro (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Reisboter (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Beurre de tourage (g)</translation>
+            <translation lang="EN">Tourage butter (g)</translation>
+            <translation lang="DE">Tourage Butter (g)</translation>
+            <translation lang="ES">Mantequilla de turismo (g)</translation>
+            <translation lang="IT">Burro di tourage (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Margarine (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Margarine (g)</translation>
+            <translation lang="EN">Margarine (g)</translation>
+            <translation lang="DE">Margarine (g)</translation>
+            <translation lang="ES">Margarina (g)</translation>
+            <translation lang="IT">Margarina (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Verbeteraar (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Améliorant (g)</translation>
+            <translation lang="EN">Improver (g)</translation>
+            <translation lang="DE">Verbesserer (g)</translation>
+            <translation lang="ES">Mejorador (g)</translation>
+            <translation lang="IT">Miglioratore (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Thangzhong (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Thangzhong (g)</translation>
+            <translation lang="EN">Thangzhong (g)</translation>
+            <translation lang="DE">Thangzhong (g)</translation>
+            <translation lang="ES">Thangzhong (g)</translation>
+            <translation lang="IT">Thangzhong (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Honing (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Miel (g)</translation>
+            <translation lang="EN">Honey (g)</translation>
+            <translation lang="DE">Honig (g)</translation>
+            <translation lang="ES">Miel (g)</translation>
+            <translation lang="IT">Miele (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Suiker (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Sucre (g)</translation>
+            <translation lang="EN">Sugar (g)</translation>
+            <translation lang="DE">Zucker (g)</translation>
+            <translation lang="ES">Azúcar (g)</translation>
+            <translation lang="IT">Zucchero (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Suiker P2 (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Sucre P2 (g)</translation>
+            <translation lang="EN">Sugar P2 (g)</translation>
+            <translation lang="DE">Zucker P2 (g)</translation>
+            <translation lang="ES">Azúcar P2 (g)</translation>
+            <translation lang="IT">Zucchero P2 (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Suiker P4 (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Sucre P4 (g)</translation>
+            <translation lang="EN">Sugar P4 (g)</translation>
+            <translation lang="DE">Zucker P4 (g)</translation>
+            <translation lang="ES">Azúcar P4 (g)</translation>
+            <translation lang="IT">Zucchero P4 (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Bloem suiker (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Sucre impalpable (g)</translation>
+            <translation lang="EN">Powdered sugar (g)</translation>
+            <translation lang="DE">Zuckerpulver (g)</translation>
+            <translation lang="ES">Azúcar en polvo (g)</translation>
+            <translation lang="IT">Zucchero a velo (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Rozijnen (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Raisins secs (g)</translation>
+            <translation lang="EN">Raisins (g)</translation>
+            <translation lang="DE">Rosinen (g)</translation>
+            <translation lang="ES">Pasas (g)</translation>
+            <translation lang="IT">Uva passa (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Chocolade (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Chocolat (g)</translation>
+            <translation lang="EN">Chocolate (g)</translation>
+            <translation lang="DE">Schokolade (g)</translation>
+            <translation lang="ES">Chocolate (g)</translation>
+            <translation lang="IT">Cioccolato (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Olie (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Huile (g)</translation>
+            <translation lang="EN">Oil (g)</translation>
+            <translation lang="DE">Öl (g)</translation>
+            <translation lang="ES">Aceite (g)</translation>
+            <translation lang="IT">Olio (g)</translation>
+        </translations>
+    </ingredient>
+    <ingredient name="Olijven (g)" lang="NL">
+        <translations>
+            <translation lang="FR">Olives (g)</translation>
+            <translation lang="EN">Olives (g)</translation>
+            <translation lang="DE">Oliven (g)</translation>
+            <translation lang="ES">Aceitunas (g)</translation>
+            <translation lang="IT">Olive (g)</translation>
+        </translations>
+    </ingredient>
+</ingredients>

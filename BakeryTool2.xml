@@ -1,0 +1,478 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<recipes>
+    <recipe name="Brood met gist" lang="NL">
+        <translations>
+            <translation lang="FR">Pain avec levure</translation>
+            <translation lang="EN">Yeast bread</translation>
+            <translation lang="DE">Hefebrot</translation>
+            <translation lang="ES">Pan con levadura</translation>
+            <translation lang="IT">Pane con lievito</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="1700"/>
+            <ingredient name="Gist (g)" amount="50"/>
+            <ingredient name="Water (ml)" amount="900"/>
+            <ingredient name="Zout (g)" amount="30"/>
+            <ingredient name="Verbeteraar (g)" amount="20"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Brood met zuurdesem" lang="NL">
+        <translations>
+            <translation lang="FR">Pain au levain</translation>
+            <translation lang="EN">Sourdough bread</translation>
+            <translation lang="DE">Sauerteigbrot</translation>
+            <translation lang="ES">Pan de masa madre</translation>
+            <translation lang="IT">Pane a lievitazione naturale</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="4000"/>
+            <ingredient name="Zuurdesem (g)" amount="500"/>
+            <ingredient name="Water (ml)" amount="2600"/>
+            <ingredient name="Zout (g)" amount="80"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Toast brood met gist" lang="NL">
+        <translations>
+            <translation lang="FR">Pain de mie avec levure</translation>
+            <translation lang="EN">Toast bread with yeast</translation>
+            <translation lang="DE">Toastbrot mit Hefe</translation>
+            <translation lang="ES">Pan de molde con levadura</translation>
+            <translation lang="IT">Pane tostato con lievito</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="270"/>
+            <ingredient name="Gist (g)" amount="15"/>
+            <ingredient name="Water (ml)" amount="160"/>
+            <ingredient name="Melk (ml)" amount="30"/>
+            <ingredient name="Zout (g)" amount="5"/>
+            <ingredient name="Boter (g)" amount="20"/>
+            <ingredient name="Suiker (g)" amount="15"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Toast brood met melk zuurdesem" lang="NL">
+        <translations>
+            <translation lang="FR">Pain de mie au levain au lait</translation>
+            <translation lang="EN">Milk sourdough toast bread</translation>
+            <translation lang="DE">Milchsauerteig-Toastbrot</translation>
+            <translation lang="ES">Pan de molde con masa madre de leche</translation>
+            <translation lang="IT">Pane tostato con lievito madre di latte</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="247"/>
+            <ingredient name="Melk zuurdesem (g)" amount="130"/>
+            <ingredient name="Water (ml)" amount="100"/>
+            <ingredient name="Zout (g)" amount="5"/>
+            <ingredient name="Boter (g)" amount="20"/>
+            <ingredient name="Suiker (g)" amount="5"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Olijvenbrood met gist" lang="NL">
+        <translations>
+            <translation lang="FR">Pain aux olives avec levure</translation>
+            <translation lang="EN">Olive bread with yeast</translation>
+            <translation lang="DE">Olivenbrot mit Hefe</translation>
+            <translation lang="ES">Pan de aceitunas con levadura</translation>
+            <translation lang="IT">Pane alle olive con lievito</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="430"/>
+            <ingredient name="Gist (g)" amount="7"/>
+            <ingredient name="Water (ml)" amount="350"/>
+            <ingredient name="Zout (g)" amount="8"/>
+            <ingredient name="Honing (g)" amount="5"/>
+            <ingredient name="Olie (g)" amount="27"/>
+            <ingredient name="Olijven (g)" amount="100"/>
+            <ingredient name="extra 1" amount="4"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Olijvenbrood met zuurdesem" lang="NL">
+        <translations>
+            <translation lang="FR">Pain aux olives au levain</translation>
+            <translation lang="EN">Olive sourdough bread</translation>
+            <translation lang="DE">Oliven-Sauerteigbrot</translation>
+            <translation lang="ES">Pan de aceitunas con masa madre</translation>
+            <translation lang="IT">Pane alle olive a lievitazione naturale</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="500"/>
+            <ingredient name="Zuurdesem (g)" amount="200"/>
+            <ingredient name="Water (ml)" amount="250"/>
+            <ingredient name="Zout (g)" amount="10"/>
+            <ingredient name="Honing (g)" amount="10"/>
+            <ingredient name="Olie (g)" amount="20"/>
+            <ingredient name="Olijven (g)" amount="125"/>
+            <ingredient name="extra 1" amount="4"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Cramique" lang="NL">
+        <translations>
+            <translation lang="FR">Cramique</translation>
+            <translation lang="EN">Cramique</translation>
+            <translation lang="DE">Cramique</translation>
+            <translation lang="ES">Cramique</translation>
+            <translation lang="IT">Cramique</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="1000"/>
+            <ingredient name="Gist (g)" amount="80"/>
+            <ingredient name="Water (ml)" amount="450"/>
+            <ingredient name="Zout (g)" amount="20"/>
+            <ingredient name="Ei" amount="1"/>
+            <ingredient name="Melkpoeder (g)" amount="50"/>
+            <ingredient name="Boter (g)" amount="150"/>
+            <ingredient name="Margarine (g)" amount="150"/>
+            <ingredient name="Verbeteraar (g)" amount="20"/>
+            <ingredient name="Suiker (g)" amount="20"/>
+            <ingredient name="Suiker P2 (g)" amount="150"/>
+            <ingredient name="Rozijnen (g)" amount="250"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Honing brood" lang="NL">
+        <translations>
+            <translation lang="FR">Pain au miel</translation>
+            <translation lang="EN">Honey bread</translation>
+            <translation lang="DE">Honigbrot</translation>
+            <translation lang="ES">Pan de miel</translation>
+            <translation lang="IT">Pane al miele</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="400"/>
+            <ingredient name="Gist (g)" amount="10"/>
+            <ingredient name="Melk (ml)" amount="300"/>
+            <ingredient name="Zout (g)" amount="5"/>
+            <ingredient name="Honing (g)" amount="100"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Shokupan" lang="NL">
+        <translations>
+            <translation lang="FR">Shokupan</translation>
+            <translation lang="EN">Shokupan</translation>
+            <translation lang="DE">Shokupan</translation>
+            <translation lang="ES">Shokupan</translation>
+            <translation lang="IT">Shokupan</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="380"/>
+            <ingredient name="Gist (g)" amount="15"/>
+            <ingredient name="Water (ml)" amount="210"/>
+            <ingredient name="Melk (ml)" amount="30"/>
+            <ingredient name="Zout (g)" amount="7"/>
+            <ingredient name="Boter (g)" amount="25"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Hokkaido melkbrood" lang="NL">
+        <translations>
+            <translation lang="FR">Pain au lait d'Hokkaido</translation>
+            <translation lang="EN">Hokkaido milk bread</translation>
+            <translation lang="DE">Hokkaido-Milchbrot</translation>
+            <translation lang="ES">Pan de leche de Hokkaido</translation>
+            <translation lang="IT">Pane al latte dell'Hokkaido</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="260"/>
+            <ingredient name="Gist (g)" amount="15"/>
+            <ingredient name="Room (ml)" amount="30"/>
+            <ingredient name="Melk (ml)" amount="180"/>
+            <ingredient name="Zout (g)" amount="15"/>
+            <ingredient name="Thangzhong (g)" amount="50"/>
+            <ingredient name="Boter (g)" amount="25"/>
+            <ingredient name="Suiker (g)" amount="25"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Stokbrood" lang="NL">
+        <translations>
+            <translation lang="FR">Baguette</translation>
+            <translation lang="EN">Baguette</translation>
+            <translation lang="DE">Baguette</translation>
+            <translation lang="ES">Baguette</translation>
+            <translation lang="IT">Baguette</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="2500"/>
+            <ingredient name="Gist (g)" amount="120"/>
+            <ingredient name="Water (ml)" amount="1500"/>
+            <ingredient name="Zout (g)" amount="45"/>
+            <ingredient name="Verbeteraar (g)" amount="50"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Ciabatta" lang="NL">
+        <translations>
+            <translation lang="FR">Ciabatta</translation>
+            <translation lang="EN">Ciabatta</translation>
+            <translation lang="DE">Ciabatta</translation>
+            <translation lang="ES">Ciabatta</translation>
+            <translation lang="IT">Ciabatta</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="1000"/>
+            <ingredient name="Gist (g)" amount="5"/>
+            <ingredient name="Zuurdesem (g)" amount="300"/>
+            <ingredient name="Water (ml)" amount="700"/>
+            <ingredient name="Zout (g)" amount="22"/>
+            <ingredient name="Olie (g)" amount="80"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Panini" lang="NL">
+        <translations>
+            <translation lang="FR">Panini</translation>
+            <translation lang="EN">Panini</translation>
+            <translation lang="DE">Panini</translation>
+            <translation lang="ES">Panini</translation>
+            <translation lang="IT">Panini</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="450"/>
+            <ingredient name="Gist (g)" amount="15"/>
+            <ingredient name="Melk (ml)" amount="125"/>
+            <ingredient name="Water (ml)" amount="125"/>
+            <ingredient name="Suiker (g)" amount="10"/>
+            <ingredient name="Zout (g)" amount="10"/>
+            <ingredient name="Olie (g)" amount="30"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Pitabroodje" lang="NL">
+        <translations>
+            <translation lang="FR">Pain pita</translation>
+            <translation lang="EN">Pita bread</translation>
+            <translation lang="DE">Pita-Brot</translation>
+            <translation lang="ES">Pan pita</translation>
+            <translation lang="IT">Pane pita</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="350"/>
+            <ingredient name="Gist (g)" amount="14"/>
+            <ingredient name="Water (ml)" amount="240"/>
+            <ingredient name="Zout (g)" amount="10"/>
+            <ingredient name="Suiker (g)" amount="15"/>
+            <ingredient name="Olie (g)" amount="20"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Pistolet" lang="NL">
+        <translations>
+            <translation lang="FR">Pistolet</translation>
+            <translation lang="EN">Pistolet</translation>
+            <translation lang="DE">Pistolet</translation>
+            <translation lang="ES">Pistolet</translation>
+            <translation lang="IT">Pistolet</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="1500"/>
+            <ingredient name="Gist (g)" amount="90"/>
+            <ingredient name="Water (ml)" amount="900"/>
+            <ingredient name="Zout (g)" amount="25"/>
+            <ingredient name="Verbeteraar (g)" amount="30"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Buns" lang="NL">
+        <translations>
+            <translation lang="FR">Buns</translation>
+            <translation lang="EN">Buns</translation>
+            <translation lang="DE">Buns</translation>
+            <translation lang="ES">Buns</translation>
+            <translation lang="IT">Buns</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="20000"/>
+            <ingredient name="Gist (g)" amount="1000"/>
+            <ingredient name="Water (ml)" amount="4000"/>
+            <ingredient name="Zout (g)" amount="400"/>
+            <ingredient name="Ei" amount="20"/>
+            <ingredient name="Melk (ml)" amount="8000"/>
+            <ingredient name="Boter (g)" amount="3000"/>
+            <ingredient name="Suiker (g)" amount="1000"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Sandwich" lang="NL">
+        <translations>
+            <translation lang="FR">Sandwich</translation>
+            <translation lang="EN">Sandwich</translation>
+            <translation lang="DE">Sandwich</translation>
+            <translation lang="ES">Sándwich</translation>
+            <translation lang="IT">Sandwich</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="1000"/>
+            <ingredient name="Gist (g)" amount="60"/>
+            <ingredient name="Water (ml)" amount="500"/>
+            <ingredient name="Zout (g)" amount="20"/>
+            <ingredient name="Ei" amount="1"/>
+            <ingredient name="Melkpoeder (g)" amount="50"/>
+            <ingredient name="Boter (g)" amount="150"/>
+            <ingredient name="Suiker (g)" amount="20"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Sandwich met melkzuurdesem" lang="NL">
+        <translations>
+            <translation lang="FR">Sandwich au levain au lait</translation>
+            <translation lang="EN">Sandwich with milk sourdough</translation>
+            <translation lang="DE">Sandwich mit Milchsauerteig</translation>
+            <translation lang="ES">Sándwich con masa madre de leche</translation>
+            <translation lang="IT">Sandwich con lievito madre al latte</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="1000"/>
+            <ingredient name="Melk zuurdesem (g)" amount="300"/>
+            <ingredient name="Water (ml)" amount="400"/>
+            <ingredient name="Zout (g)" amount="20"/>
+            <ingredient name="Ei" amount="1"/>
+            <ingredient name="Boter (g)" amount="150"/>
+            <ingredient name="Suiker (g)" amount="20"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Brioche" lang="NL">
+        <translations>
+            <translation lang="FR">Brioche</translation>
+            <translation lang="EN">Brioche</translation>
+            <translation lang="DE">Brioche</translation>
+            <translation lang="ES">Brioche</translation>
+            <translation lang="IT">Brioche</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="250"/>
+            <ingredient name="Gist (g)" amount="8"/>
+            <ingredient name="Melk (ml)" amount="24.5"/>
+            <ingredient name="Zout (g)" amount="5"/>
+            <ingredient name="Ei" amount="2.5"/>
+            <ingredient name="Boter (g)" amount="120"/>
+            <ingredient name="Room (ml)" amount="50"/>
+            <ingredient name="Suiker (g)" amount="35"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Melkbrood met chocoladechips" lang="NL">
+        <translations>
+            <translation lang="FR">Pain au lait aux pépites de chocolat</translation>
+            <translation lang="EN">Milk bread with chocolate chips</translation>
+            <translation lang="DE">Milchbrot mit Schokoladenstückchen</translation>
+            <translation lang="ES">Pan de leche con chispas de chocolate</translation>
+            <translation lang="IT">Pane al latte con gocce di cioccolato</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="450"/>
+            <ingredient name="Gist (g)" amount="18"/>
+            <ingredient name="Zout (g)" amount="5"/>
+            <ingredient name="Ei" amount="1"/>
+            <ingredient name="Melk (ml)" amount="280"/>
+            <ingredient name="Boter (g)" amount="30"/>
+            <ingredient name="Suiker (g)" amount="50"/>
+            <ingredient name="Chocolade (g)" amount="100"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Melkzuurdesembrood met chocoladechips" lang="NL">
+        <translations>
+            <translation lang="FR">Pain au levain au lait et pépites de chocolat</translation>
+            <translation lang="EN">Milk sourdough bread with chocolate chips</translation>
+            <translation lang="DE">Milchsauerteigbrot mit Schokoladenstückchen</translation>
+            <translation lang="ES">Pan de masa madre con leche y pepitas de chocolate</translation>
+            <translation lang="IT">Pane al latte con lievito madre e gocce di cioccolato</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="450"/>
+            <ingredient name="Zout (g)" amount="5"/>
+            <ingredient name="Ei" amount="1"/>
+            <ingredient name="Melk (ml)" amount="180"/>
+            <ingredient name="Melk zuurdesem (g)" amount="100"/>
+            <ingredient name="Boter (g)" amount="30"/>
+            <ingredient name="Suiker (g)" amount="50"/>
+            <ingredient name="Chocolade (g)" amount="100"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Pizza met gist" lang="NL">
+        <translations>
+            <translation lang="FR">Pizza avec levure</translation>
+            <translation lang="EN">Yeast pizza</translation>
+            <translation lang="DE">Hefepizza</translation>
+            <translation lang="ES">Pizza con levadura</translation>
+            <translation lang="IT">Pizza con lievito</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="1000"/>
+            <ingredient name="Gist (g)" amount="20"/>
+            <ingredient name="Water (ml)" amount="500"/>
+            <ingredient name="Zout (g)" amount="17"/>
+            <ingredient name="Olie (g)" amount="100"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Pizza met zuurdesem" lang="NL">
+        <translations>
+            <translation lang="FR">Pizza au levain</translation>
+            <translation lang="EN">Sourdough pizza</translation>
+            <translation lang="DE">Sauerteigpizza</translation>
+            <translation lang="ES">Pizza de masa madre</translation>
+            <translation lang="IT">Pizza a lievitazione naturale</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="500"/>
+            <ingredient name="Zuurdesem (g)" amount="150"/>
+            <ingredient name="Water (ml)" amount="300"/>
+            <ingredient name="Zout (g)" amount="12"/>
+            <ingredient name="Olie (g)" amount="20"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Thangzhong" lang="NL">
+        <translations>
+            <translation lang="FR">Thangzhong</translation>
+            <translation lang="EN">Thangzhong</translation>
+            <translation lang="DE">Thangzhong</translation>
+            <translation lang="ES">Thangzhong</translation>
+            <translation lang="IT">Thangzhong</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="23"/>
+            <ingredient name="Water (ml)" amount="60"/>
+            <ingredient name="Melk (ml)" amount="60"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Bladerdeeg" lang="NL">
+        <translations>
+            <translation lang="FR">Pâte feuilletée</translation>
+            <translation lang="EN">Puff pastry</translation>
+            <translation lang="DE">Blätterteig</translation>
+            <translation lang="ES">Hojaldre</translation>
+            <translation lang="IT">Pasta sfoglia</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="1100"/>
+            <ingredient name="Gist (g)" amount="60"/>
+            <ingredient name="Water (ml)" amount="550"/>
+            <ingredient name="Zout (g)" amount="20"/>
+            <ingredient name="Boter (g)" amount="150"/>
+            <ingredient name="Suiker (g)" amount="50"/>
+            <ingredient name="Reisboter (g)" amount="500"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Taart" lang="NL">
+        <translations>
+            <translation lang="FR">Tarte</translation>
+            <translation lang="EN">Pie</translation>
+            <translation lang="DE">Kuchen</translation>
+            <translation lang="ES">Tarta</translation>
+            <translation lang="IT">Torta</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="1000"/>
+            <ingredient name="Gist (g)" amount="40"/>
+            <ingredient name="Water (ml)" amount="400"/>
+            <ingredient name="Zout (g)" amount="17"/>
+            <ingredient name="Melkpoeder (g)" amount="50"/>
+            <ingredient name="Boter (g)" amount="250"/>
+            <ingredient name="Margarine (g)" amount="250"/>
+            <ingredient name="Suiker (g)" amount="40"/>
+        </ingredients>
+    </recipe>
+    <recipe name="Mantou" lang="NL">
+        <translations>
+            <translation lang="FR">Mantou</translation>
+            <translation lang="EN">Mantou</translation>
+            <translation lang="DE">Mantou</translation>
+            <translation lang="ES">Mantou</translation>
+            <translation lang="IT">Mantou</translation>
+        </translations>
+        <ingredients>
+            <ingredient name="Bloem (g)" amount="300"/>
+            <ingredient name="Gist (g)" amount="12"/>
+            <ingredient name="Water (ml)" amount="160"/>
+            <ingredient name="Zout (g)" amount="3"/>
+            <ingredient name="Suiker (g)" amount="20"/>
+        </ingredients>
+    </recipe>
+</recipes>

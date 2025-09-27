@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ingredients>
+    <ingredient name="Ei">
+        <conversion factor="50"/>
+    </ingredient>
+    <ingredient name="Melk (ml)">
+        <conversion factor="1.03"/>
+    </ingredient>
+    <ingredient name="Room (ml)">
+        <conversion factor="1.01"/>
+    </ingredient>
+</ingredients>
